@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>School Transport Management System</title>
+	<style type="text/css">
+		.navbar{
+			background-color: #e89002;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px;
+			height: 25px;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+		.navbar h2{
+			font-family: calibri;
+			color: white;
+		}
+		.navbar a{
+			text-decoration: none;
+		}
+		.navbar ul{
+			list-style: none;
+			display: flex;
+			align-items: center;
+			margin-right: 40px;
+		}
+		.navbar ul a{
+			margin-left: 20px;
+			font-family: calibri;
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+		}
+
+		.main{
+			margin-top: 140px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.intro{
+			margin-left: 100px;
+			margin-right: 40px;
+		}
+		h1{
+			color: #e89002;
+			font-family: calibri;
+			font-size: 40px;
+		}
+		p{
+			color: black;
+			text-align: justify;
+			font-family: calibri;
+			font-size: 20px;
+		}
+		.bus{
+			margin-top: 20px;
+			margin-right: 60px;
+			height: 50vh;
+		}
+		.btn button{
+			padding: 11px;
+			width: 110px;
+			border-radius: 10px;
+			margin-right: 15px;
+			font-size: 18px;
+			font-weight: bold;
+			background-color: #e89002;
+			border: 10px, solid black;
+		}
+
+		.navbar .btn button{
+			background-color: black;
+			color: white;
+			padding: 9px;
+			width: 100px;
+		}
+
+		.navbar .btn button:hover{
+			background-color: white;
+			color: #e89002;
+			border: 10px, solid black;
+		}
+
+		.btn button:hover{
+			background-color: black;
+			color: #e89002;
+			border: 10px,solid black;
+		}
+		#about{
+			padding-top: 120px;
+			padding-bottom:20px ;
+		}
+		#about h1{
+			text-align: center;
+		}
+		#about p{
+			margin: 0 300px;
+			text-align: justify;
+		}
+
+		#contact{
+			margin-top: 130px;
+			background-color: black;
+			padding: 1px;
+		}
+		#contact p{
+			color: white;
+		}
+		.info{
+			display: flex;
+			justify-content: space-between;
+			padding: 0 30px;
+		}
+
+		#contact .footer .info p{
+			font-size: 15px;
+			line-height: 0px;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<a href="#"><h2>School Transport Management</h2></a>
+		<nav>
+			<div class="nav1">
+				<ul>
+					<a href="#"><li>Home</li></a>
+					<a href="#about"><li>About</li></a>
+					<a href="#contact"><li>Contact</li></a>
+					<li>
+						<div class="btn">
+							<a href="#"><button>SignIn</button></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+
+
+	<div class="main">
+		<div class="intro">
+			<h1>School Transport Management</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="btn">
+				<a href="#"><button>SignUp</button> </a>
+			</div>
+		</div>
+		<div class="bus">
+		<img class="bus" src="bus.png">
+		</div>
+	</div>
+
+
+
+	<div id="about">
+		<h1>About Us</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+
+
+	<div id="contact">
+		<div class="footer">
+			<div class="info">
+				<p>Email: abc@gmai.com</p>
+				<p>Address: Business Avenue Main, Pakistan</p>
+			</div>
+			<div class="info">
+				<p>Instagram: @schoolTransportService</p>
+				<p>Phone: +92-4792638</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
